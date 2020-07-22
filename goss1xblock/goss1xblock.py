@@ -19,7 +19,6 @@ class Goss1XBlock(XBlock):
     # Fields are defined on the class.  You can access them in your code as
     # self.<fieldname>.
 
-    # TO-DO: delete count, and define your own fields.
     score = Integer(
         default=0, scope=Scope.user_state,
         help="An indicator of success",
