@@ -10,6 +10,8 @@ import urllib
 import json
 import random
 
+has_score = True
+
 @XBlock.wants('user')
 class Goss1XBlock(XBlock):
     """
@@ -18,7 +20,8 @@ class Goss1XBlock(XBlock):
 
     # Fields are defined on the class.  You can access them in your code as
     # self.<fieldname>.
-
+    has_score = True
+    # TO-DO: delete count, and define your own fields.
     score = Integer(
         default=0, scope=Scope.user_state,
         help="An indicator of success",
