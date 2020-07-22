@@ -1,0 +1,25 @@
+/* CSS for Goss1XBlock */
+
+.goss1xblock_block .score {
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+#gossinput {
+    width: 300px;
+    	
+}
+
+#gosscurrent {
+	background: yellow;
+}
+
+#gosscorrect {
+	background: lime!important;
+}
+
+
+.goss1xblock_block p {
+    cursor: pointer;
+    background: silver!important;
+}
