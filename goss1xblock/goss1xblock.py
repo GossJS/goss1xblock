@@ -78,7 +78,7 @@ class Goss1XBlock(XBlock):
         else:
              self.score = 0
 
-        event_data = {'value': self.score / 100, 'max_value': 100}
+        event_data = {'value': self.score / 100, 'max_value': 1}
         self.runtime.publish(self, 'grade', event_data)
 
         url = "https://fork.kodaktor.ru/publog3?EDXEDX---------"
